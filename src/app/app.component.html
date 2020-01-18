@@ -1,0 +1,11 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+<div *ngIf='appStatus'>{{ appTitle }} Tutorialspoint</div>
+<div *ngFor='let lst of appList'>
+  <ul>
+    <li>{{ lst.ID }}</li>
+    <li>{{ lst.name }}</li>
+  </ul>
+</div>
